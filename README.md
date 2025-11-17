@@ -1,4 +1,4 @@
-# FolderDiff: A Python script that recursively scans directories and identifies files that are unique to each folder
+# FolderDiff: A Python script that recursively scans directories and identifies files that are unique to each directory
 
 Python script for comparing two directories by file **content** rather than filenames.  
 It uses **SHA-256 hashing** to identify identical files across directories and reports files that are unique to each directory.
