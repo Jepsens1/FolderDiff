@@ -1,9 +1,11 @@
-# Directory Comparison Tool
+# FolderDiff: A Python script that recursively scans directories and identifies files that are unique to each folder
 
-This repository contains a simple Python script for comparing two directories by file **content** rather than just filenames.  
+Python script for comparing two directories by file **content** rather than filenames.  
 It uses **SHA-256 hashing** to identify identical files across directories and reports files that are unique to each directory.
 
----
+## Motivation
+While working on [media-organizer](https://github.com/Jepsens1/media-organizer) I needed a way to check that all files that were copied from one directory to another actually were copied over.
+On MacOS when i looked at information about a directory the size was smaller than the directory i just copied from. So i created FolderDiff script to validate that there a no files that are unique to each directory.
 
 ## Features
 - Recursively scans two directories.
@@ -11,10 +13,9 @@ It uses **SHA-256 hashing** to identify identical files across directories and r
 - Collects file metadata: name, path, size, and hash.
 - Identifies files that are unique to either directory (based on content).
 - Handles unreadable files and reports skipped files.
-
 ---
 
-## Usage
+## 🚀 Getting Started
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/dir-compare.git
