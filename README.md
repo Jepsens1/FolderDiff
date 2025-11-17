@@ -4,7 +4,7 @@ Python script for comparing two directories by file **content** rather than file
 It uses **SHA-256 hashing** to identify identical files across directories and reports files that are unique to each directory.
 
 ## Motivation
-While working on [media-organizer](https://github.com/Jepsens1/media-organizer) I needed a way to check that all files that were copied from one directory to another actually were copied over.
+While working on [ExifSorter](https://github.com/Jepsens1/ExifSorter) I needed a way to check that all files that were copied from one directory to another actually were copied over.
 On MacOS when i looked at information about a directory the size was smaller than the directory i just copied from. So i created FolderDiff script to validate that there a no files that are unique to each directory.
 
 ## Features
